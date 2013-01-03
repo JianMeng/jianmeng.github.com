@@ -3,7 +3,6 @@ title: "I have a blog"
 permalink: blog/I-have-a-blog.html
 layout: post
 fuzzydate: January 2012
-credit: Conrad Irwin
 ---
 
 Today I have a new blog.  Bringing up as a silient good kid, it is very strange for me 
@@ -22,7 +21,8 @@ The reason comes from servial channels.
    still my most favority in everyday life. As world became more and more smaller by internet, writing
    is better way to interact with the mass. Although I am a Chinese,I decide to write in English for
    almost foreign people can easily read. And I think writing in english for a blog is very good 
-   opportunity and challenge for me. If I am doing mess with something,please let me known.
+   opportunity and challenge for me. If I am doing mess with something,please let me known. You can found my
+   contact info below.
 
 3. I don't want to be limited in 256 bytes. Although the sharing web site like twitter,weibo(Chinese twitter)
    will continue soar, a lot of thoughts can not to correctly convey to reader in just 256 bytes.
