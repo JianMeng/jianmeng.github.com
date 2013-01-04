@@ -2,7 +2,7 @@
 title: "I have a blog"
 permalink: blog/I-have-a-blog.html
 layout: post
-fuzzydate: January 2012
+fuzzydate: January 2013
 ---
 
 Today I have a new blog.  Bringing up as a silient good kid, it is very strange for me 

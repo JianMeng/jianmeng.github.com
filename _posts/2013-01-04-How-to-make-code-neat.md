@@ -2,7 +2,7 @@
 title: "How to make code neat"
 permalink: blog/How-to-make-code-neat.html
 layout: post
-fuzzydate: January 2012
+fuzzydate: January 2013
 ---
 
 Programmers meet code everyday. Some code is neat,others looks ugly. Modifing a lousy code
