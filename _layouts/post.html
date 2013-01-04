@@ -511,10 +511,10 @@
 
     <nav>
       {% if page.previous.permalink %}
-          <a href="/{{page.previous.permalink | replace:'.html',''}}" class="previous">← {{page.previous.title}}</a>
+          <a href="/{{page.previous.permalink}}" class="previous">← {{page.previous.title}}</a>
       {% endif %}
       {% if page.next.permalink %}
-          <a href="/{{page.next.permalink | replace:'.html',''}}" class="next">{{page.next.title}} →</a>
+          <a href="/{{page.next.permalink}}" class="next">{{page.next.title}} →</a>
       {% endif %}
     </nav>
 

@@ -37,8 +37,13 @@ What is this blog about?
 2. Spreading knowledge.
    Computer tech is a big topic in this blogs.That is where my passion in.
 
+Contact me
+==========
 
 You can contact me with email: dreammengjian at gmail.com.
+
+Special Thanks
+==============
 
 I make this blog with [jekell](http://jekyllrb.com/), and taking the template form [Conrad Irwin](http://cirw.in/).
 Thank you for this beautiful tool.
