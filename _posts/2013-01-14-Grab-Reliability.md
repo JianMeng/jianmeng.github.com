@@ -57,11 +57,11 @@ A notice must be pointed out: this list is far from being well categorized. I do
 to write this as an academic paper.
 
 
-# Code Pratise.
+# Coding Practices 
 
 
 ## Using Design Pattern
-A well choosed design pattern bring software robust. For example, 
+A well choosed design pattern bring software robustness. For example, 
 [statechart](http://www.inf.ed.ac.uk/teaching/courses/seoc/2004_2005/resources/statecharts.pdf) can
 be used in the range form embedding media player to aircraft designing. I learn this from 
 [sproutcore statechart](https://github.com/sproutcore/sproutcore/tree/master/frameworks/statechart).
@@ -72,7 +72,9 @@ the each subsystem. [iCloud](https://www.icloud.com/) from apple use this to con
 is farther more longer than that. It came from Israel's avionics system directly, invented by a 
 professor named David Harel. The software engineers in that age made they best to make Israel's plane
 more robuster. [The history of statechart](http://www.wisdom.weizmann.ac.il/~harel/papers/Statecharts.History.pdf) 
-told everything.
+told you everything.
 
 
-Code pratise is 
+## [Test-driven development(TTD)](http://en.wikipedia.org/wiki/Test-driven_development)
+I know this from a meetup lecture giving by [Zoom.Quite](http://about.me/zoom.quiet).
+The slide is in [here](http://zoomquiet.org/res/s5/100826-PyTDD/).
