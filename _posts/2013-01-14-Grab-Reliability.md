@@ -77,4 +77,55 @@ told you everything.
 
 ## [Test-driven development(TTD)](http://en.wikipedia.org/wiki/Test-driven_development)
 I know this from a meetup lecture giving by [Zoom.Quite](http://about.me/zoom.quiet).
-The slide is in [here](http://zoomquiet.org/res/s5/100826-PyTDD/).
+The slide is in [here](http://zoomquiet.org/res/s5/100826-PyTDD/). Dynmatic language like
+python is sharp on TTD. 
+
+
+And one also can not miss the browser-side TDD. Javascript framework evolve fastly in recent years.
+Some programmer pick up [qunitjs](http://qunitjs.com/), while other choose to develop they testbed in a
+single page, for example [sproutcore testing](https://github.com/sproutcore/sproutcore/tree/master/frameworks/testing).
+
+
+## [Continuous integration](http://en.wikipedia.org/wiki/Continuous_integration)
+Automated unit tests is a big help for software development. With Continuous integration(CI), automated 
+unit tests can be done daily. A mistake such as new code invailding other part function can be found 
+faster and cheaper. Although building a CI enviroment never be easy, it turly boost the productivity of 
+ programmer.
+
+
+## Code Review
+Code review is a tool for team to re-ensure software quality. The whole team ensure the quality of project,
+not just one single person. Code review can be done by issue, by spring, by GA. A whole team choose which is
+best time to do reviewing.
+
+
+Another benefit bring by code review is that educating the newbie in the team. Young team member can learn
+a lot skill that will be helpful in future work.
+
+
+## Paired programming
+Personally, I thought paired programming is a waste of human resource. Costing doubled, but product still 
+same. Not a good deal!
+
+
+But one experience on annoying UI bug changed me forever. That bug cause by a mis-usaging design. When my 
+parter and I finally realize that reason, it is too late for me to ask designer to change. So we two had 
+to continue the full-of-if-else design. It is 2 am. Both of us is tired. Writing down 200 lines of if-else 
+is easy job for that time me. When one man can not got the job done, paired programming came in. Using 
+this we make our work done.
+
+
+## Distributed Systems
+
+If one server is not reliable for you, you can run two server. Distributed system is considered to work
+with this situation. For telecom company, distributed system is a must to their products. But distributed
+system will cost much more resources than one single system. [Distributed Systems for Young Bloods](http://
+www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/) is something you need 
+to read.
+
+
+# Math hack
+Math is the key for programming. My favorite article on this is 
+[The Mathematical Hacker](http://evanmiller.org/mathematical-hacker.html). The safty come form math is reliable.
+Math works in Kaifu Lee's story above.
+
