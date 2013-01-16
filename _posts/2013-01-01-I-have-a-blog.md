@@ -28,6 +28,10 @@ The reason comes from servial channels.
    will continue soar, a lot of thoughts can not to correctly convey to reader in just 256 bytes.
    So a blog is much better to do this.
 
+4. Defeated by [persuasion](http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html) from
+   [Nathan Marz](http://nathanmarz.com), I accepted.
+
+
 What is this blog about?
 ========================
 
