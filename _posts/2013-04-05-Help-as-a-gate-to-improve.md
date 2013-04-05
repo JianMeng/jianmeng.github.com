@@ -2,7 +2,7 @@
 title: "Help as a gate to improve"
 permalink: blog/help-as-a-gate-to-improve.html
 layout: post
-fuzzydate: January 2013
+fuzzydate: April 2013
 ---
 
 The user centered design(UCD) in today try his best to make us believe that 
