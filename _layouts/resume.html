@@ -484,10 +484,6 @@
   </head>
 
   <body class="{{page.index}}">
-    <header>
-      <h1>{{page.title}}</h1>
-    </header>
-
     <section>
       <article><div>{{content}}</div></article>
     </section>
@@ -510,96 +506,6 @@
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        var dom, i, len, job,
-            jobs = document.getElementsByTagName('h3'),
-            config = {
-                chart: {
-                    plotBackgroundColor: '#FFE',
-                    plotBorderWidth: null,
-                    plotShadow: false,
-                    type: 'pie'
-                },
-                title: {
-                    text: 'Languages Used'
-                },
-                tooltip: {
-                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-                },
-                plotOptions: {
-                    pie: {
-                        allowPointSelect: true,
-                        cursor: 'pointer',
-                        dataLabels: {
-                            enabled: true,
-                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                            style: {
-                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                            }
-                        }
-                    }
-                },
-                series: [{
-                    name: 'used times',
-                    colorByPoint: true,
-                    
-                }]
-            },
-            data = [
-                [{
-                    name: 'javascript',
-                    y: 90
-                }, {
-                    name: 'java',
-                    sliced: true,
-                    selected: true,
-                    y: 10
-                }],
-                [{
-                    name: 'python',
-                    y: 20
-                }, {
-                    name: 'javascript',
-                    sliced: true,
-                    selected: true,
-                    y: 30
-                }, {
-                    name: 'erlang',
-                    y: 2
-                }, {
-                    name: 'C++',
-                    y: 2
-                }, {
-                    name: 'TCL',
-                    y: 1
-                }, {
-                    name: 'C',
-                    y: 40,
-                    sliced: true,
-                    selected: true
-                }],
-                [{
-                    name: 'C++',
-                    y: 100,
-                    sliced: true,
-                    selected: true
-                }],
-                [{
-                    name: 'C',
-                    y: 60
-                }, {
-                    name: 'C++',
-                    y: 40,
-                    sliced: true,
-                    selected: true
-                }]
-            ];
-        for (i = 0, len = jobs.length; i < len ;i++) {
-            dom = mkDIV();
-            job = jobs[i];
-            config.series[0].data = data[i];
-	        job.parentNode.insertBefore(dom, job.nextSibling);
-            Highcharts.chart(dom, config);
-        }
       })();
     </script>
 </body>
