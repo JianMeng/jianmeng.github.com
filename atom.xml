@@ -14,8 +14,8 @@ permalink: blog/atom.xml
    <name>Jian Meng</name>
    <email>dreammengjian@gmail.com</email>
  </author>
-
- {% for post in site.posts %}
+ {% assign posts = site.posts | where: "layout", "post" %}
+ {% for post in posts %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
    <link href="http://jianmeng.github.com/{{ post.url }}"/>

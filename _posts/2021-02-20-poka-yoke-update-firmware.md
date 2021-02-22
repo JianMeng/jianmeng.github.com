@@ -2,7 +2,7 @@
 title: "poka yoke update firmware"
 permalink: blog/poka-yoke-update-firmware.html
 layout: post
-fuzzydate: Feb 2021
+fuzzydate: February 2021
 ---
 ["poka yoke"](https://kanbanize.com/lean-management/improvement/what-is-poka-yoke) is a japanese word ポカヨケ, which mean Fool-proofing. I first meet this word in a book talking about User interface design in web serval years ago. But soon I soon found where it should be applied.
 
