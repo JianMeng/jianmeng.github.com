@@ -8,6 +8,7 @@
 
     <link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed"/>
     <link href="/blog/rss.xml" type="application/rss+xml" rel="alternate" title="RSS feed"/>
+    <script src="//cdn.jsdelivr.net/npm/mermaid@8.9.0/dist/mermaid.min.js"></script>
 
     <style type="text/css">
         {{page.style}}
@@ -541,6 +542,14 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    </script>
+    <script>
+      const conf = {
+        logLevel: 1,
+        themeCSS:'.label { font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif; }',
+        startOnLoad: true
+      };
+      mermaid.initialize(conf);
     </script>
 </body>
 </html>
