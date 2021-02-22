@@ -10,7 +10,7 @@ permalink: blog/rss.xml
   <atom:link rel="self" href="http://jianmeng.github.com/blog/rss.xml"></atom:link>
   <description>Welcome</description>
 
- {% assign posts = site.posts | where: "layout", "post" %}
+ {% assign posts = site.posts %}
  {% for post in posts %}
   <item>
       <title>{{ post.title | xml_escape }}</title>

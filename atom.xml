@@ -14,7 +14,7 @@ permalink: blog/atom.xml
    <name>Jian Meng</name>
    <email>dreammengjian@gmail.com</email>
  </author>
- {% assign posts = site.posts | where: "layout", "post" %}
+ {% assign posts = site.posts %}
  {% for post in posts %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>

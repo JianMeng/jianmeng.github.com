@@ -8,15 +8,13 @@ fuzzydate: sharing my stuff
 Welcome to my small list of blog-posts:
 
 <ul>
-{% assign posts = site.posts | where: "layout", "post" %}
+{% assign posts = site.posts %}
 {% for post in posts %}
 <li><span style="width:10em;display:inline-block;">{{post.fuzzydate}}</span> <a href="{{post.permalink}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 
 <ul>
-{% assign resumes = site.posts | where: "layout", "resume" %}
-{% for post in resumes %}
-<li><a href="{{post.permalink}}">{{post.title}}</a></li>
-{% endfor %}
+<li><a href="resume/cn.html">简历</a></li>
+<li><a href="resume/en.html">resume</a></li>
 </ul>
