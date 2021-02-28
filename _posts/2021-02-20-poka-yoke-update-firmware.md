@@ -4,7 +4,8 @@ permalink: blog/poka-yoke-update-firmware.html
 layout: post
 fuzzydate: February 2021
 ---
-["poka yoke"](https://kanbanize.com/lean-management/improvement/what-is-poka-yoke) is a japanese word ポカヨケ, which mean Fool-proofing. I first meet this word in a book talking about User interface design in web serval years ago. But soon I soon found where it should be applied.
+
+["poka yoke"](https://kanbanize.com/lean-management/improvement/what-is-poka-yoke) is a japanese word ポカヨケ, which mean Fool-proofing. I first meet this word in a book talking about User interface design in web serval years ago. But soon I found where it should be applied.
 
 My boss in Emerson assignd me to write a update firmware page in site supervisor. This is a simple page like below.
 
@@ -33,9 +34,13 @@ sequenceDiagram
     end
 </div>
 
-The firmware is about 64MB big. Its name is like XXXX.Pkg. But that maybe wrong by renaming file evilly. Uploading that to server take a while. Then your user can know whether the file is right by server notification. Server know it because it has a 100 line C function from the header part of the firmware.
+The firmware is about 64MB big. Its name is like ver-XXXX.Pkg. But that can be rename file evilly by human Uploading that to server takes a while. Then your user can know whether the file is right by server notification. Server know it because it has a 100 line C function from the header part of the firmware. Waiting for message from backend server is time consuming. 
 
-Waiting for message from backend server is time consuming. At that time, web browser provide some juicy new function called [File Reader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) and [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer). It can do c function part in browser side once after user select file from OS side. User can know firmware version immedately. That is cool.
+Our customer is mainly cell store on the highway and large supermarket. But realy the end user is the heating and ventilation engineer from our company, whose job is configure all kind HAVC, refrigerator and light etc devices. They are busy, really know all kind sensor data's meaning, and what to do with that infomation. Sometime they need update firmware to solve particularly problem. But they are human. Human have the right to make mistake. 
+
+In above operation, file name can be rename. So user can not know the right reversion immediatly. Backend message will tell that after uploading process eventually. But that message flush by new message from backend. The user can negelect that. When the wrong firmware is installed in hardware, the shop may suffer from food went bad to air condition disfunction. Huge cost may got someone fired. I feel i could do something to improve that, at least for the part of selecting right reversion of firmare. Afterall, if you make your customer feel theirself stupid after using your device, you are the one should be blamed.
+
+At that time, web browser provide some juicy new function called [File Reader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) and [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer). It can do c function part in browser side once after user select file from OS side. User can know firmware version immedately. That is cool.
 
 There is a [browser crash](https://joji.me/en-us/blog/processing-huge-files-using-filereader-readasarraybuffer-in-web-browser/) if file choosed is larger than About 600MB. But since the firmware could large than 2 size of memory. So we can early out those case maybe cause by user mistake.
 
