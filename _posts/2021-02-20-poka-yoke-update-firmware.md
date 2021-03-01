@@ -67,12 +67,14 @@ One may ask what about the user which do not have such browser. The answser is s
 
 A little bad thing i found in above approach was when read the large file is taking some time for browser calculation. So there ware a short freeze in browser. The undesirable effect soon be eliminated by introduce [web worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers). Now the browser will have async read and analysis file. The main thread just send file content and wait for json result from web worker. 
 
-One episode: 
+Two episodes: 
 
 In one morning i got complain email from QA. The user said the file size is wrong. After a few digging, that cause by linux and window are different about 1kB?= 1000B or 1024B. After i put the whole number byte aside, world peace.
 
-The final work is in "4.12.1 Firmware Update - Remote Access" of [site supervisor user guide](https://climate.emerson.com/documents/site-supervisor-user-guide-rev-17-en-us-6471528.pdf).
+Our company work in agile process. The UI designer actually are in charge UI. It is not that man's design.  But he will be blamed if it not rock. Put it in simple way, it is not a right process result. My doing stealthily release in a inside version. My boss was very keen to notice the change of page, since he did a lot firmware update to check product status everyday. He shooted an email inquiring how it work personally. I replyed. Weeks flyed sliently. But my teamleader disagree to put that in product because of its bastard status. Then he required me to rollback the change. I follow the order later. Then my boss and internal user ask it add it back. I guess they finally express their love.
 
-Have some tea.
+Now that bastard become legitimate citizen in  "4.12.1 Firmware Update - Remote Access" of [site supervisor user guide](https://climate.emerson.com/documents/site-supervisor-user-guide-rev-17-en-us-6471528.pdf).
+
+The agile process sometime hinder people design. One day later my designer encouraged me to be a designer. It  astonish me.  I admit I have good sense of appreciating beauty. But make myself a Vinci is another thing. I am bad at colors. Above work started by good willness to help people reduce they day work. Innovate is not like your payroll received every month punctuality. I did a lot observation and learning. Then I know what I can improve. But making that one of my title got me more chance to be fired. :D
 
 
