@@ -75,6 +75,6 @@ Our company work in agile process. The UI designer actually are in charge UI. It
 
 Now that bastard become legitimate citizen in  "4.12.1 Firmware Update - Remote Access" of [site supervisor user guide](https://climate.emerson.com/documents/site-supervisor-user-guide-rev-17-en-us-6471528.pdf).
 
-The agile process sometime hinder people design. One day later my designer encouraged me to be a designer. It  astonish me.  I admit I have good sense of appreciating beauty. But make myself a Vinci is another thing. I am bad at colors. Above work started by good willness to help people reduce they day work. Innovate is not like your payroll received every month punctuality. I did a lot observation and learning. Then I know what I can improve. But making that one of my title got me more chance to be fired. :D
+The agile process sometime hinder people design. One day later my designer encouraged me to be a designer. It  astonish me.  I admit I have good sense of appreciating beauty. But make myself a Vinci is another thing. I am bad at colors. Above work started by good willness to help people reduce they day work. Innovate is not like your payroll received every month punctuality. I did a lot observation and learning. Then I know what I can improve. But making innovate as my everyday output only got me more chance to be fired. :D
 
 
