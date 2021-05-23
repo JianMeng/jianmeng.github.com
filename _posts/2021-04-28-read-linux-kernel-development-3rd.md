@@ -13,5 +13,4 @@ A strange part about linux related book is that those book try to teach what is 
 
 What I expect from is this book is to explain the lock implement in operation system. Not the api to call, but how to use hardware to implement it. 
 
-
-It is a good book. It help me understand a lot detail command in linux how they work. You shoud read it.
+It is a good book. It help me understand a lot detail command in linux how they work. Although reading linux kernel code is time-consuming thing, if you have free time, you shoud read it.
